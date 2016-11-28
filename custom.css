@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'weathericons';
+  src: url('../appsresources/fonts/weathericons-regular-webfont.eot');
+  src: url('../appsresources/fonts/weathericons-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../appsresources/fonts/weathericons-regular-webfont.woff') format('woff'),
+       url('../appsresources/fonts/weathericons-regular-webfont.woff2') format('woff2'),
+       url('../appsresources/fonts/weathericons-regular-webfont.ttf') format('truetype'),
+       url('../appsresources/fonts/weathericons-regular-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+#weather_pluginAppObj_51 {
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase;
+  background:  #1192D3 url(http://mtu.summitcommunity.edu/) no-repeat center center;
+  background-size: cover;
+  font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  position: relative;
+}
+
+#weather_pluginAppObj_51 .weather-wrapper{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#weather_pluginAppObj_51 .icon {
+  color: #fff;
+  font-family: 'weathericons';
+  font-size: 150px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+}
+
+.icon-0:before  { content: "\f056"; }
+.icon-1:before  { content: "\f03b"; }
+.icon-2:before  { content: "\f01d"; }
+.icon-3:before  { content: "\f01e"; }
+.icon-4:before  { content: "\f01d"; }
+.icon-5:before  { content: "\f017"; }
+.icon-6:before  { content: "\f017"; }
+.icon-7:before  { content: "\f017"; }
+.icon-8:before  { content: "\f017"; }
+.icon-9:before  { content: "\f01b"; }
+.icon-10:before { content: "\f017"; }
+.icon-11:before { content: "\f01b"; }
+.icon-12:before { content: "\f01b"; }
+.icon-13:before { content: "\f01b"; }
+.icon-14:before { content: "\f01b"; }
+.icon-15:before { content: "\f017"; }
+.icon-16:before { content: "\f01b"; }
+.icon-17:before { content: "\f017"; }
+.icon-18:before { content: "\f015"; }
+.icon-19:before { content: "\f014"; }
+.icon-20:before { content: "\f014"; }
+.icon-21:before { content: "\f014"; }
+.icon-22:before { content: "\f014"; }
+.icon-23:before { content: "\f014"; }
+.icon-24:before { content: "\f011"; }
+.icon-25:before { content: "\f011"; }
+.icon-26:before { content: "\f013"; }
+.icon-27:before { content: "\f031"; }
+.icon-28:before { content: "\f002"; }
+.icon-29:before { content: "\f031"; }
+.icon-30:before { content: "\f002"; }
+.icon-31:before { content: "\f02e"; }
+.icon-32:before { content: "\f00d"; }
+.icon-33:before { content: "\f02e"; }
+.icon-34:before { content: "\f00d"; }
+.icon-35:before { content: "\f017"; }
+.icon-36:before { content: "\f00d"; }
+.icon-37:before { content: "\f01d"; }
+.icon-38:before { content: "\f01d"; }
+.icon-39:before { content: "\f01d"; }
+.icon-40:before { content: "\f01a"; }
+.icon-41:before { content: "\f017"; }
+.icon-42:before { content: "\f01b"; }
+.icon-43:before { content: "\f017"; }
+.icon-44:before { content: "\f031"; }
+.icon-45:before { content: "\f01d"; }
+.icon-46:before { content: "\f015"; }
+.icon-47:before { content: "\f01d"; }
+
+.min-icon:before        { content: "\f053"; }
+.max-icon:before        { content: "\f055"; }
+.wind-icon:before       { content: "\f050"; }
+.wind-dir-icon:before   { content: "\f0b1"; }
+.humidity-icon:before   { content: "\f07a"; }
+.visibility-icon:before { content: "\f021"; }
+.pressure-icon:before   { content: "\f079"; }
+.sunrise-icon:before    { content: "\f051"; }
+.sunset-icon:before     { content: "\f052"; }
+.fake-icon:before       { content: "."; visibility: hidden; }
+
+#weather_pluginAppObj_51 .main-weather,
+#weather_pluginAppObj_51 .extra-weather,
+#weather_pluginAppObj_51 .next-weather{
+  margin: auto;
+  text-align: center;
+  display: table;
+}
+
+#weather_pluginAppObj_51 .main-weather .temp {
+  color: #FFFFFF;
+  font-size: 50px;
+  line-height: 80px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+  margin-left: 20px;
+  display: inline-block;
+}
+
+#weather_pluginAppObj_51 .main-weather .icon {
+  color: #FFFFFF;
+  font-size: 55px;
+  line-height: 70px;
+  margin-top: 10px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
+#weather_pluginAppObj_51 .main-weather .name{
+  color: #FFFFFF;
+  font-size: 20px;
+  clear: both;
+  display: block;
+}
+
+#weather_pluginAppObj_51 .extra-weather .extra {
+  background-color: rgba(17,146,211,0.7);
+  color: #FFFFFF;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  text-align: center;
+}
+#weather_pluginAppObj_51 .extra-weather .line{
+  line-height: 20px;
+  height: 20px;
+  display: block;
+  overflow: hidden;
+}
+#weather_pluginAppObj_51 .extra-weather .single-line .line{
+  line-height: 40px;
+  height: 40px;
+}
+#weather_pluginAppObj_51 .extra-weather .icon {
+  color: #FFFFFF;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 20px;
+  margin: 0 8px;
+}
+#weather_pluginAppObj_51 .extra-weather .single-line .icon{
+  line-height: 40px;
+}
+
+#weather_pluginAppObj_51 .next-weather .next-day{
+  color: #FFFFFF;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+  width: 80px;
+  height: 80px;
+  line-height: 20px;
+  margin: 5px 0;
+  display: inline-block;
+  text-align: center;
+}
+#weather_pluginAppObj_51 .next-weather .icon {
+  color: #FFFFFF;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+#weather_pluginAppObj_51 .debug-msg,
+#weather_pluginAppObj_51 .error-msg{
+  text-transform: none;
+  font-size: 14px;
+  line-height: 24px;
+  z-index: 2;
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  font-weight: normal;
+  text-shadow: none;
+  border: 1px dashed #666;
+  box-sizing: border-box;
+  opacity: 1;
+
+  -webkit-animation: fade 8s forwards;
+  animation: fade 8s forwards;
+}
+
+@keyframes fade
+  {
+  0% {opacity:1;}
+  70% {opacity:1;}
+  100% {opacity:0;}
+  }
+  
+  @-webkit-keyframes fade
+  {
+  0% {opacity:1;}
+  70% {opacity:1;}
+  100% {opacity:0;}
+  }
